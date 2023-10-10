@@ -3,93 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <title>bibibibobobo</title>
+<link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <img src="1.jpg" width="350" alt="Это я" />
-    <p>Это я кстати</p>
-    <h1><strong>BaHek </strong></h1>
-    <p><em>ya Balbes</em></p>
+  <div class="container">
+    <div class="info">
+      <img src="1.jpg" alt="Это я" class="avatar" />
 
-    <hr />
-    <h2>Мои хобби</h2>
-    <ul>
-      <li><a href="https://vk.com/b1732">vk</a></li>
-      <li><a href="@Isten" target="_blank">tg</a></li>
-    </ul>
-    <ol>
-      <li>1</li>
-      <li>2</li>
+      <div class="info-text">
+        <h1>BaHek </h1>
+        <p><em>ya Balbes</em></p>
+        <p>Как же хочется пиццу</p>
+    
+        <h4>Мои социальные сети</h4>
+        <a href="@Isten" target="_blank">telegram</a>|
+        <a href="https://vk.com/b1732" target="_blank">vk</a>
+      </div>
+    </div>
+  </div>
+  
+    
+  <div class="card bg-yellow">
+    <h2>Мои хобби(хорсинг?)</h2>
+    <ol class="list">
+      <li>Быстрый бег до вуза</li>
+      <li>Дока 2, ну там кровь кишки, че то там еще 20 минут резни вот</li>
+      <li>Экстренное покидание пар</li>
     </ol>
-    <table>
-      <thead>
+  </div>
+
+
+
+  <div class="card bg-green">
+    <table class="table">
+      <h2>Опыт работы</h2>
         <tr>
-          <th
-            colspan="2"
-            style="
-              border-top: 3px solid #333;
-              border-left: 3px solid #333;
-              border-right: 3px solid #333;
-            "
-          >
-            Опыт работы
-          </th>
+          <td>Компания</td>
+          <td>Должность</td>
+          <td>Год</td>
         </tr>
-      </thead>
-      <tbody>
         <tr>
-          <td style="border: 1px solid #333; border-left: 3px solid #333">
-            у меня нет
-          </td>
-          <td style="border: 1px solid #333; border-right: 3px solid #333">
-            опыта работы
-          </td>
+          <td>Пятерочка</td>
+          <td>Продавец-кассир</td>
+          <td>2020-2020</td>
         </tr>
-      </tbody>
-      <tfoot>
         <tr>
-          <th
-            colspan="2"
-            style="
-              border-bottom: 3px solid #000;
-              border-left: 3px solid #333;
-              border-right: 3px solid #333;
-            "
-          >
-            я балбес
-          </th>
+          <td>Командор</td>
+          <td>Мерчендайзер</td>
+          <td>2021-2021</td>
         </tr>
-      </tfoot>
+        <tr>
+          <td>Красный яр</td>
+          <td>Сборщик заказов</td>
+          <td>2022-2022</td>
+        </tr>
     </table>
+  </div>
 
-    <h2>Не мои хобби</h2>
-    <a href="yt.html" target="_blank">Обязательно к просмотру</a>
-    <h2>Братва на связи</h2>
-    <form action="/"></form>
-      <label>Как братву зовут:</label>
-      <input type="text" id="name_bratva" placeholder="Вот тут пиши name" />
-    </form>
-    <br />
-    <form>
-      <label>Какая у братвы почта:</label>
-      <input type="email" id="email_bratva" placeholder="Вот тут пиши email" />
-      <br />
+  <div class="card bg-red">
+    <h2>Самое важное в жизни любого</h2>
+    <ul class="link-list">
+      <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Никогда не сдавайся, брат</a>
+      </li>
+      <Li><a href="https://www.youtube.com/watch?v=u-GGZlRUsKw&pp=ygUT0Y3QvdC00YDQsSDRgtC10LnRgg%3D%3D&ab_channel=AndrewTate%D0%9D%D0%B0%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC">Пошаговое руководство, как стать богатым</a></Li>
+      <li><a href="https://www.youtube.com/watch?v=CrjHIfvI8kY&ab_channel=KempeDrist">Гайд на бруду</a></li>
+    </ul>  
+  </div>
+    
+    
+    <div class="contact">
+      <h2>Братва на связи</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label>Как братву зовут:</label>
+              <input type="text" id="name_bratva" placeholder="Вот  тут  пиши name">
+            </div>
 
-      <label>Какой у тебя пароль брат?</label>
-      <input
-        style="width: 280px"
-        type="password"
-        id="passwd_bratva"
-        placeholder="Вот тут пароль свой напиши по братски"
-      />
-    </form>
-    <br />
-    <form>
-      <label>Вот тут пиши:</label>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Жи или ши, какая разница брат, пиши от души"></textarea>
-    </form>
-    <br />
-    <form action="">
-      <input type="submit" value="До связи брат" />
-    </form>
+          <div class="form-group">
+              <label>Какая у братвы почта:</label>
+              <input type="email" id="email_bratva" placeholder="Вот  тут  пиши email" />
+          </div>
+        </div>
+    <div class="form-group">
+        <label>Вот тут пиши:</label>
+        <textarea name="" id="" cols="30" rows="7"placeholder="Жи или ши, какая разница брат, пиши от   души"></textarea>
+    </div>
+      <input class="btn" type="submit" value="До связи брат" />
+      </form>
+    </div>
+
+    <div class="position">
+      <div class="box">
+        
+      </div>
+    </div>
+    
   </body>
 </html>
